@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GifTastic</title>
+ 
+ 
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--optional themes-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container">
+            <h1>GifTastic Disney Movie Search</h1>
+        </div>
+        <div id="gifButtons" class="container"></div>
+        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+            <!-- Gifs  -->
+            <div id="gifsView"></div>
+        </div>
+         <!-- Action Submission Form  -->
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+             <form role="form">
+                <div class="form-group">
+                    <label for="action-input">Search new giphy movie:</label>
+                    <input type="text" id="action-input">
+                </div>
+                <input id="addGiphy" type="submit" value="Search" class="btn btn-primary">
+            </form>    
+        </div>
+    </div>
+   
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="assets/javascript/app.js"></script>
+</body>
+</html>
